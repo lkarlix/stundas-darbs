@@ -14,3 +14,34 @@
         </body>
         </html>
 
+        <!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KD02</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Balsošanas kontrole</h1>
+    <p id="result"></p>
+
+    <h2>Atzīmes novērtēšana:</h2>
+    <input type="number" id="gradeInput" placeholder="Ievadiet atzīmi (0-100)">
+    <button onclick="evaluateGrade">Novērtēt atzīmi</button>
+
+    <h2>Skaitļu kalkulators:</h2>
+    <input type="number" id="operand1" placeholder="Ievadiet pirmo skaitli">
+    <input type="number" id="operand2" placeholder="Ievadiet otro skaitli">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <button onclick="calculate">Aprēķināt</button>
+
+    <h3 id="calculationResult"></h3>
+
+</body>
+</html>
